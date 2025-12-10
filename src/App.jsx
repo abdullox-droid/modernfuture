@@ -19,3 +19,5 @@ Center</h1>
 
   )
 }
+
+export { App }

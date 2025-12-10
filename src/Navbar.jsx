@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-export default function Navbar() {
+export default function Navbar({ bagCount = 0 }) {
 
     return (
         <>
@@ -14,6 +14,7 @@ export default function Navbar() {
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/aboutus'>About Us</Link></li>
                         <li><Link to='/products'>Products</Link></li>
+                        <li className='bag'><Link to='/bag'><img src="src/assets/bag 2.png" alt="" /> <span >{bagCount}</span></Link></li>
                         <li><Link to='/contacts'>Contacts</Link></li>
                     </ul>
                 </li>

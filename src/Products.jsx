@@ -1,6 +1,6 @@
 
 
-export default function Products() {
+export default function Products({ onAddToBag }) {
 
     return (
         <>
@@ -32,52 +32,53 @@ export default function Products() {
                 <img src="src/assets/unnamed (5) 1.png" alt="" />
             </div>
             <div>
-                <button>Uzs 300.000</button>
+                <button onClick={onAddToBag}>Uzs 300.000</button>
             </div>
     </div>
     <div className="mebel_box">
         <div className="mebel_text">
      <div>
         <p>Chair</p>
-        <h3>Glossy Cube</h3>
+        <h3>Wooden Side</h3>
      </div>
      <img src="src/assets/Frame 39.png" alt="" />
         </div>
             <div className="mebel_img">
-                <img src="src/assets/unnamed (5) 1.png" alt="" />
+                <img src="src/assets/unnamed (5) 2.png" alt="" />
             </div>
             <div>
-                <button>Uzs 300.000</button>
+                <button className="buty" onClick={onAddToBag}>Uzs 200.000</button>
             </div>
     </div>
     <div className="mebel_box">
         <div className="mebel_text">
      <div>
         <p>Chair</p>
-        <h3>Glossy Cube</h3>
+        <h3>Upholstery Sotka</h3>
      </div>
      <img src="src/assets/Frame 39.png" alt="" />
         </div>
             <div className="mebel_img">
-                <img src="src/assets/unnamed (5) 1.png" alt="" />
+                <img src="src/assets/unnamed (5) 3.png" alt="" />
             </div>
             <div>
-                <button>Uzs 300.000</button>
+                <button className="buty" onClick={onAddToBag}>Uzs 700.000</button>
             </div>
     </div>
     <div className="mebel_box">
         <div className="mebel_text">
      <div>
         <p>Chair</p>
-        <h3>Glossy Cube</h3>
+        <h3>Bed
+Headboard</h3>
      </div>
      <img src="src/assets/Frame 39.png" alt="" />
         </div>
             <div className="mebel_img">
-                <img src="src/assets/unnamed (5) 1.png" alt="" />
+                <img src="src/assets/unnamed (5) 4.png" alt="" />
             </div>
             <div>
-                <button>Uzs 300.000</button>
+                <button className="buty" onClick={onAddToBag}>Uzs 900.000</button>
             </div>
     </div>
          </div>

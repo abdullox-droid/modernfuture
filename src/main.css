@@ -82,6 +82,7 @@ justify-content: center;
 }
 .da ul{
     display: flex;
+    align-items: center;
     gap: 100px;
 }
 .da a{
@@ -255,7 +256,7 @@ justify-content: center;
     font-size: 16px;
 }
 .mebel_img{
-    margin-left: 70px;
+
 }
 .mebel_box button{
   padding: 15px 20px;
@@ -263,4 +264,13 @@ justify-content: center;
   color: rgba(76, 175, 80, 1);
   background: rgba(255, 255, 255, 0.45);
 
+}
+.bag{
+    position: relative;
+}
+.bag span{
+    position: absolute;
+    top: -5px;
+    text-shadow: 1px 1px 5px black;
+    right: -5px;
 }
